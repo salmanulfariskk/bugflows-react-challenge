@@ -1,46 +1,12 @@
-# React.js Coding Challenge – Bugflows
+# React + Vite
 
-## 🧪 Objective:
-Convert the given static login page (HTML/CSS/JS) into a clean, modular React.js application.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✅ Requirements:
-- Use **React Functional Components** (no class components).
-- Convert HTML to valid JSX.
-- Move styles into either CSS modules or keep them in a single global file.
-- Add a `LoginForm` component that handles the form submission using `useState` and `onSubmit`.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🗂 Suggested Folder Structure:
-
-```
-/src
- ┣ /components
- ┃ ┗ LoginForm.jsx
- ┣ App.jsx
- ┗ index.js
-```
-
----
-
-## ⚙️ Notes:
-- You may use Create React App or Vite.
-- Do **not** use UI libraries like Bootstrap or MUI.
-- The form doesn't need real login logic — just a `console.log` or `alert` on submit is fine.
-
----
-
-## 📩 Submission Instructions:
-
-- Fork this repo and convert the static page into a React app.
-- Email the **GitHub repo link** to: `sophie@bugflows.com`
-- Subject Line: `React Challenge - [Your Full Name]`
-- Please include:
-  - Your GitHub repo URL
-  - Optional: A short note about how you approached the conversion
-
-Deadline: within **24 hours** of receiving this challenge.
-
-Good luck!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
